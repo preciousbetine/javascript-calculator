@@ -1,6 +1,5 @@
-import React, { StrictMode } from 'react';
+import React from 'react';
 import './App.css';
-
 
 class Calculator extends React.Component
 {
@@ -138,14 +137,11 @@ class Calculator extends React.Component
   }
 }
 
-
-
-
 function App() {
-  console.log(eval('5 + 5'))
   return (
     <div className="App">
       <Calculator />
+      <p>Designed and Coded By Precious Betine</p>
     </div>
   );
 }
