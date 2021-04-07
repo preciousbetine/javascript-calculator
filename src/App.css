@@ -47,9 +47,8 @@ p{
 #display
 {
   border: none;
-  width: 296px;
   background: rgb(163, 156, 156);
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid black;
   font-family: 'Lucida Console', monospace;
   font-size: 30px;
   text-align: right;
@@ -76,6 +75,7 @@ button
   color: rgb(187, 119, 17);
   background: rgb(70, 70, 71);
   user-select: none;
+  border: none;
 }
 
 #zero, #decimal, #one, #two, #three, #four, #five, #six,  #seven, #eight, #nine
