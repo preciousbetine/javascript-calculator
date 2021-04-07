@@ -6,6 +6,7 @@ The following functions are currently supported:
 
 Here's how it looks like:
 
-![pic](https://user-images.githubusercontent.com/56425107/113919377-70246f00-97db-11eb-8cf5-bff612c7442b.png)
+![pic](https://user-images.githubusercontent.com/56425107/113919803-ea54f380-97db-11eb-8939-b2f5d3a823ce.png)
+
 
 See it in action [here](https://precious-calc.web.app)
