@@ -1,0 +1,20 @@
+name: Deploy with firebase
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Install packages
+        run: |
+          npm ci
+      - name: Build
+        run: |
+          CI=false npm run build
+      - name: Deploy to firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: 1//03dF0R-zhkxnCCgYIARAAGAMSNwF-L9Ir3QIy7HMn-4ZzzTLkGyj5B-HEz9UMIqdNwII7OoBFa-ONdBdOGPi0lUI3Bf2qcsl8nVk
