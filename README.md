@@ -1,5 +1,11 @@
 This is a basic calculator created with React.
-To run it, simply enter the command `npm start` or build it with `npm run build` and serve it with `serve -s build`.
+To run it, simply enter the following commands:
+
+ ```
+ npm install   #installs all depoendencies
+ npm start     #starts the development server
+ ```
+or build it with `npm run build` and serve it with `serve -s build`.
 
 The following functions are currently supported:
   Addition, Subtraction, Multiplication and Division of Numbers.
