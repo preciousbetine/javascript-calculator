@@ -21,7 +21,7 @@ class Calculator extends React.Component
   {
     return (
       <div id="calculator">
-        <textarea id="store" ref={this.text} rows={this.state.rows} cols={26} value={this.state.previous + this.state.current} readOnly/>
+        <textarea id="store" ref={this.text} rows={this.state.rows} cols={24} value={this.state.previous + this.state.current} readOnly/>
         <input type="text" id="display" value={this.state.display} readOnly/>
         <div id="container">
             <button id="seven" value="7">7</button>
