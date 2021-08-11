@@ -15,4 +15,4 @@ Here's how it looks like:
 ![pic](https://user-images.githubusercontent.com/56425107/113919803-ea54f380-97db-11eb-8939-b2f5d3a823ce.png)
 
 
-See it in action [here](https://precious-calc.web.app)
+See it in action [here](https://precious-calc.herokuapp.com)
